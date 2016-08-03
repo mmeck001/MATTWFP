@@ -1,0 +1,41 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+body{
+background-image: url("/images/128-219.jpg"); 
+	background-repeat:repeat; 
+}
+@font-face { font-family: HelveticaNeue; src: url('/fonts/HelveticaNeue.ttf'); } 
+h1 {
+	font-family: HelveticaNeue
+	font-size:50px;
+}
+p {
+	font-size:15px;
+}
+h2 {
+	font-size:30px;
+}
+.box {
+outline:1px solid black;
+padding-left:20px;
+z-index: 0;
+background-color:white;
+opacity:.9; 
+}
+
+
+.box:hover{
+   background-color:#d9d9d9;
+}
+
+.content{
+	width: 94%;
+	height: 70%;
+	z-index: 99;
+	background-color:white;
+	position:absolute;
+	margin:40px;
+}
